@@ -103,6 +103,13 @@ Este runbook cobre:
 - Integração com mensageria externa
 - Governança operacional documentada
 ---
+# 📋 Boas Práticas
+
+- Desativar usuário Admin padrão
+- Forçar HTTPS
+- Restringir permissões
+- Monitorar replicação
+- Validar processos críticos
 
 ## 📄 Licença
 
