@@ -121,22 +121,13 @@ Distribuído sob licença MIT.
 
 
 TESTE
-
 # 📚 Menu de Acesso Rápido ao Runbook
 
-## 🔹 1. Instalação Base do Sistema
 ➡️ [01 - Instalação Base](runbook/01-instalacao-base.md)
-## 🔹 2. Configuração Apache + PHP
 ➡️ [02 - Apache e PHP](runbook/02-apache-php.md)
-## 🔹 3. Configuração do MariaDB
 ➡️ [03 - MariaDB](runbook/03-mariadb.md)
-## 🔹 4. Configuração do Zabbix Server
 ➡️ [04 - Zabbix Server](runbook/04-zabbix-server.md)
-## 🔹 5. Agente e UserParameters Customizados
 ➡️ [05 - Agente e UserParameters](runbook/05-agente-userparameters.md)
-## 🔹 6. Itens e Triggers Customizados
 ➡️ [06 - Itens e Triggers](runbook/06-itens-triggers.md)
-## 🔹 7. Integração com Telegram
 ➡️ [07 - Integração Telegram](runbook/07-telegram.md)
-## 🔹 8. Validação, Logs e Hardening
 ➡️ [08 - Validação e Hardening](runbook/08-validacao-e-hardening.md)
