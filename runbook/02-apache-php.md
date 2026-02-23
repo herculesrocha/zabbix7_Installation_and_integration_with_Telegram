@@ -60,8 +60,45 @@ vi /usr/local/etc/apache24/extra/httpd-vhosts.conf
 </VirtualHost>
 ```
 
-- Ajustar Permissões
-
+## Ajustar Permissões
+```bash
 chown -R www:www /usr/local/www/ && chmod -R 755 /usr/local/www/
+```
+## Ajustar variáveis do PHP
+```bash
+vi /usr/local/etc/php.ini
+```
+```php
+memory_limit = 256M
+post_max_size = 32M
+upload_max_filesize = 16M
+max_execution_time = 300
+max_input_time = 300
+date.timezone = America/Araguaina
+```
+## Comentar arquivo de configuração do Apache para não importar hosts desnecessários
+```bash
+vi /usr/local/etc/apache24/httpd.conf
+```
+```php
+ServerName zabbix.dominio.com.br:80
+```
+## Primeiro Virtual Host (colocar nome do arquivo sem o .conf no final)
+### Include etc/apache24/Includes/intranet.dominio.com.br
 
-- Ajustar variáveis do PHP
+## Outros Virtual Host
+### Include etc/apache24/Includes/*.conf
+
+## Verificar configuração, restartar serviços e testar
+```bash
+/usr/local/sbin/httpd -t
+```
+```bash
+service php_fpm restart && service apache24 restart
+```
+```sh
+tail -f /var/log/zabbix_error.log
+tail -f /var/log/zabbix_ssl_error.log
+tail -f /var/log/zabbix_access.log
+tail -f /var/log/zabbix_ssl_access.log
+```
