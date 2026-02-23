@@ -15,7 +15,6 @@ Este repositório contém um runbook completo, utilizado em um ambiente real, pa
 O objetivo é padronizar a implantação, garantir rastreabilidade operacional e demonstrar boas práticas de monitoramento corporativo.
 
 ---
-
 ## 🖥️ Ambiente
 
 - Sistema Operacional: FreeBSD
@@ -26,8 +25,6 @@ O objetivo é padronizar a implantação, garantir rastreabilidade operacional e
 - Integração: Telegram Bot API
 
 ---
-
-
 # 📚 Menu de Acesso Rápido ao Runbook
 
 ## 🔹 1. Instalação Base do Sistema
@@ -36,28 +33,24 @@ Preparação do FreeBSD, atualização do sistema, compilação via ports e inst
 ➡️ [01 - Instalação Base](runbook/01-instalacao-base.md)
 
 ---
-
 ## 🔹 2. Configuração Apache + PHP
 Estrutura de diretórios, VirtualHost HTTP/HTTPS, permissões, ajustes de PHP e validação de serviços.
 
 ➡️ [02 - Apache e PHP](runbook/02-apache-php.md)
 
 ---
-
 ## 🔹 3. Configuração do MariaDB
 Reset estrutural, criação do banco, grants detalhados, importação de schema e validação de logs.
 
 ➡️ [03 - MariaDB](runbook/03-mariadb.md)
 
 ---
-
 ## 🔹 4. Configuração do Zabbix Server
 Ativação no rc.conf, ajustes no zabbix_server.conf, restart e validação operacional.
 
 ➡️ [04 - Zabbix Server](runbook/04-zabbix-server.md)
 
 ---
-
 ## 🔹 5. Agente e UserParameters Customizados
 Configuração avançada do agente com monitoramento de:
 
@@ -72,7 +65,6 @@ Configuração avançada do agente com monitoramento de:
 ➡️ [05 - Agente e UserParameters](runbook/05-agente-userparameters.md)
 
 ---
-
 ## 🔹 6. Itens e Triggers Customizados
 Definição técnica de expressões para:
 
@@ -85,14 +77,12 @@ Definição técnica de expressões para:
 ➡️ [06 - Itens e Triggers](runbook/06-itens-triggers.md)
 
 ---
-
 ## 🔹 7. Integração com Telegram
 Criação de bot, obtenção de token, configuração de mídia no Zabbix, ações de alerta e templates HTML de notificação.
 
 ➡️ [07 - Integração Telegram](runbook/07-telegram.md)
 
 ---
-
 ## 🔹 8. Validação, Logs e Hardening
 Procedimentos de validação final, auditoria de logs e boas práticas de segurança.
 
@@ -117,19 +107,3 @@ Este runbook cobre:
 ## 📄 Licença
 
 Distribuído sob licença MIT.
-
-
-
-TESTE
-# 📚 Menu de Acesso Rápido ao Runbook
-
-➡️ [01 - Instalação Base](runbook/01-instalacao-base.md)
-
-➡️ [02 - Apache e PHP](runbook/02-apache-php.md)
-
-➡️ [03 - MariaDB](runbook/03-mariadb.md)
-➡️ [04 - Zabbix Server](runbook/04-zabbix-server.md)
-➡️ [05 - Agente e UserParameters](runbook/05-agente-userparameters.md)
-➡️ [06 - Itens e Triggers](runbook/06-itens-triggers.md)
-➡️ [07 - Integração Telegram](runbook/07-telegram.md)
-➡️ [08 - Validação e Hardening](runbook/08-validacao-e-hardening.md)
